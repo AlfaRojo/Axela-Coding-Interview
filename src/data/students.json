@@ -1,0 +1,154 @@
+[
+  {
+    "id": "est-001",
+    "nombre": "Ana Lucía",
+    "apellido": "López Ramírez",
+    "fechaNacimiento": "2009-03-14",
+    "anioCursando": "5to Bachillerato",
+    "residencia": {
+      "direccion": "5a Avenida 12-34, Zona 10",
+      "municipio": "Guatemala",
+      "departamento": "Guatemala"
+    },
+    "encargado": {
+      "nombre": "María Ramírez Solís",
+      "parentesco": "Madre",
+      "telefono": "5512-3456",
+      "email": "mramirez@correo.com"
+    },
+    "activo": true
+  },
+  {
+    "id": "est-002",
+    "nombre": "Diego Alejandro",
+    "apellido": "Castillo Pérez",
+    "fechaNacimiento": "2009-11-02",
+    "anioCursando": "5to Bachillerato",
+    "residencia": {
+      "direccion": "8a Calle 4-17, Zona 1",
+      "municipio": "Antigua Guatemala",
+      "departamento": "Sacatepéquez"
+    },
+    "encargado": {
+      "nombre": "Roberto Castillo Aguilar",
+      "parentesco": "Padre",
+      "telefono": "5598-7412",
+      "email": "rcastillo@correo.com"
+    },
+    "activo": true
+  },
+  {
+    "id": "est-003",
+    "nombre": "Sofía Gabriela",
+    "apellido": "Mendoza Ixcoy",
+    "fechaNacimiento": "2010-01-27",
+    "anioCursando": "4to Bachillerato",
+    "residencia": {
+      "direccion": "Calzada Roosevelt 22-90, Zona 11",
+      "municipio": "Mixco",
+      "departamento": "Guatemala"
+    },
+    "encargado": {
+      "nombre": "Elena Ixcoy Tzoc",
+      "parentesco": "Abuelo/a",
+      "telefono": "4423-8890",
+      "email": "eixcoy@correo.com"
+    },
+    "activo": true
+  },
+  {
+    "id": "est-004",
+    "nombre": "Javier Emilio",
+    "apellido": "Rodríguez Cáceres",
+    "fechaNacimiento": "2010-06-18",
+    "anioCursando": "4to Bachillerato",
+    "residencia": {
+      "direccion": "3a Avenida 15-08, Zona 14",
+      "municipio": "Guatemala",
+      "departamento": "Guatemala"
+    },
+    "encargado": {
+      "nombre": "Patricia Cáceres Lima",
+      "parentesco": "Madre",
+      "telefono": "5566-1102",
+      "email": "pcaceres@correo.com"
+    },
+    "activo": true
+  },
+  {
+    "id": "est-005",
+    "nombre": "Valeria Nicole",
+    "apellido": "Herrera Santos",
+    "fechaNacimiento": "2011-09-05",
+    "anioCursando": "3ro Básico",
+    "residencia": {
+      "direccion": "6a Calle 9-23, Zona 3",
+      "municipio": "Chimaltenango",
+      "departamento": "Chimaltenango"
+    },
+    "encargado": {
+      "nombre": "Marcos Santos Reyes",
+      "parentesco": "Tío/a",
+      "telefono": "3378-4501",
+      "email": "msantos@correo.com"
+    },
+    "activo": true
+  },
+  {
+    "id": "est-006",
+    "nombre": "Andrés Fernando",
+    "apellido": "Morales Chávez",
+    "fechaNacimiento": "2011-04-30",
+    "anioCursando": "3ro Básico",
+    "residencia": {
+      "direccion": "14 Avenida 7-55, Zona 6",
+      "municipio": "Guatemala",
+      "departamento": "Guatemala"
+    },
+    "encargado": {
+      "nombre": "Silvia Chávez Ordóñez",
+      "parentesco": "Madre",
+      "telefono": "5541-9963",
+      "email": "schavez@correo.com"
+    },
+    "activo": true
+  },
+  {
+    "id": "est-007",
+    "nombre": "Camila Andrea",
+    "apellido": "Villagrán Ruano",
+    "fechaNacimiento": "2012-02-11",
+    "anioCursando": "2do Básico",
+    "residencia": {
+      "direccion": "Km 15.5 Carretera a El Salvador",
+      "municipio": "Santa Catarina Pinula",
+      "departamento": "Guatemala"
+    },
+    "encargado": {
+      "nombre": "Jorge Villagrán Paz",
+      "parentesco": "Padre",
+      "telefono": "5587-2234",
+      "email": "jvillagran@correo.com"
+    },
+    "activo": true
+  },
+  {
+    "id": "est-008",
+    "nombre": "Pablo Sebastián",
+    "apellido": "Girón Alvarado",
+    "fechaNacimiento": "2010-12-08",
+    "anioCursando": "4to Bachillerato",
+    "residencia": {
+      "direccion": "2a Calle 11-40, Zona 2",
+      "municipio": "Escuintla",
+      "departamento": "Escuintla"
+    },
+    "encargado": {
+      "nombre": "Rosa Alvarado Menéndez",
+      "parentesco": "Hermano/a",
+      "telefono": "4490-3317",
+      "email": "ralvarado@correo.com"
+    },
+    "activo": false
+  }
+]

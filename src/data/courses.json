@@ -1,0 +1,81 @@
+[
+  {
+    "id": "cur-001",
+    "nombre": "Matemática III",
+    "codigo": "MAT-301",
+    "catedraticoId": "cat-001",
+    "alumnosIds": ["est-001", "est-003", "est-005"],
+    "dias": ["LUN", "MIE", "VIE"],
+    "horario": { "inicio": "07:00", "fin": "08:30" },
+    "aula": "A-201",
+    "cupoMaximo": 30,
+    "activo": true
+  },
+  {
+    "id": "cur-002",
+    "nombre": "Física Fundamental",
+    "codigo": "FIS-210",
+    "catedraticoId": "cat-001",
+    "alumnosIds": ["est-001", "est-002", "est-004"],
+    "dias": ["MAR", "JUE"],
+    "horario": { "inicio": "08:30", "fin": "10:00" },
+    "aula": "A-201",
+    "cupoMaximo": 25,
+    "activo": true
+  },
+  {
+    "id": "cur-003",
+    "nombre": "Literatura Hispanoamericana",
+    "codigo": "LIT-115",
+    "catedraticoId": "cat-002",
+    "alumnosIds": ["est-001", "est-006", "est-007"],
+    "dias": ["LUN", "MIE"],
+    "horario": { "inicio": "10:15", "fin": "11:45" },
+    "aula": "B-104",
+    "cupoMaximo": 28,
+    "activo": true
+  },
+  {
+    "id": "cur-004",
+    "nombre": "Historia de Guatemala",
+    "codigo": "HIS-120",
+    "catedraticoId": "cat-003",
+    "alumnosIds": ["est-002", "est-004"],
+    "dias": ["VIE"],
+    "horario": { "inicio": "13:00", "fin": "15:00" },
+    "aula": "B-210",
+    "cupoMaximo": 35,
+    "activo": true
+  },
+  {
+    "id": "cur-005",
+    "nombre": "Programación Básica",
+    "codigo": "TEC-101",
+    "catedraticoId": "cat-004",
+    "alumnosIds": [
+      "est-002",
+      "est-003",
+      "est-004",
+      "est-005",
+      "est-006",
+      "est-007"
+    ],
+    "dias": ["MAR", "JUE"],
+    "horario": { "inicio": "14:00", "fin": "15:30" },
+    "aula": "LAB-01",
+    "cupoMaximo": 6,
+    "activo": true
+  },
+  {
+    "id": "cur-006",
+    "nombre": "Educación Musical",
+    "codigo": "ART-140",
+    "catedraticoId": "cat-002",
+    "alumnosIds": [],
+    "dias": ["MIE"],
+    "horario": { "inicio": "15:45", "fin": "16:45" },
+    "aula": "SALÓN-MÚSICA",
+    "cupoMaximo": 20,
+    "activo": true
+  }
+]

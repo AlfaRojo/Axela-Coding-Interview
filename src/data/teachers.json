@@ -1,0 +1,86 @@
+[
+  {
+    "id": "cat-001",
+    "nombre": "Carlos Eduardo",
+    "apellido": "Ruiz Morales",
+    "fechaNacimiento": "1982-07-02",
+    "telefono": "5555-9876",
+    "email": "cruiz@colegio.edu.gt",
+    "salario": 8500,
+    "fechaIngreso": "2019-01-15",
+    "residencia": {
+      "direccion": "12 Calle 3-45, Zona 7",
+      "municipio": "Mixco",
+      "departamento": "Guatemala"
+    },
+    "contactoEmergencia": {
+      "nombre": "Lucía Morales Paz",
+      "parentesco": "Esposo/a",
+      "telefono": "5555-4321"
+    },
+    "activo": true
+  },
+  {
+    "id": "cat-002",
+    "nombre": "Mariana Isabel",
+    "apellido": "Del Valle Ortiz",
+    "fechaNacimiento": "1990-11-23",
+    "telefono": "4412-7788",
+    "email": "mdelvalle@colegio.edu.gt",
+    "salario": 6800,
+    "fechaIngreso": "2022-02-01",
+    "residencia": {
+      "direccion": "7a Avenida 2-19, Zona 4",
+      "municipio": "Antigua Guatemala",
+      "departamento": "Sacatepéquez"
+    },
+    "contactoEmergencia": {
+      "nombre": "Hugo Del Valle Recinos",
+      "parentesco": "Padre",
+      "telefono": "4412-1100"
+    },
+    "activo": true
+  },
+  {
+    "id": "cat-003",
+    "nombre": "Luis Antonio",
+    "apellido": "Fuentes Barrios",
+    "fechaNacimiento": "1975-04-09",
+    "telefono": "3320-5566",
+    "email": "lfuentes@colegio.edu.gt",
+    "salario": 11200,
+    "fechaIngreso": "2011-06-20",
+    "residencia": {
+      "direccion": "20 Calle 18-72, Zona 10",
+      "municipio": "Guatemala",
+      "departamento": "Guatemala"
+    },
+    "contactoEmergencia": {
+      "nombre": "Ana Barrios Guzmán",
+      "parentesco": "Esposo/a",
+      "telefono": "3320-9081"
+    },
+    "activo": true
+  },
+  {
+    "id": "cat-004",
+    "nombre": "Karla Beatriz",
+    "apellido": "Sican Coy",
+    "fechaNacimiento": "1988-08-16",
+    "telefono": "5573-6644",
+    "email": "ksican@colegio.edu.gt",
+    "salario": 9400,
+    "fechaIngreso": "2017-08-07",
+    "residencia": {
+      "direccion": "4a Calle 6-30, Zona 1",
+      "municipio": "Chimaltenango",
+      "departamento": "Chimaltenango"
+    },
+    "contactoEmergencia": {
+      "nombre": "Byron Coy Ajanel",
+      "parentesco": "Hermano/a",
+      "telefono": "5573-2255"
+    },
+    "activo": true
+  }
+]
