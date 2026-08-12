@@ -1,0 +1,32 @@
+import React, { useEffect, useState, useContext } from 'react'
+import { useParams, useNavigate } from 'react-router-dom'
+import EstudiantesContext from '../../context/EstudiantesContext';
+
+const EstudianteDetallePage = () => {
+  const { id } = useParams()
+  const { obtenerEstudiante } = useContext(EstudiantesContext);
+  const estudiante = obtenerEstudiante(id);
+
+  if (!id || !estudiante) return <p>Estudiante no encontrado o id no proporcionado</p>
+
+  return (
+    <div className="rounded-md border border-slate-200 bg-white p-4">
+      <h1 className="mb-6 text-2xl font-semibold tracking-tight text-slate-900">Detalle del Estudiante</h1>
+      <div className="grid gap-3 sm:grid-cols-2">
+        <p><strong>Nombre:</strong> {estudiante.nombre} {estudiante.apellido}</p>
+        <p><strong>Fecha de nacimiento:</strong> {estudiante.fechaNacimiento}</p>
+        <p><strong>Año cursando:</strong> {estudiante.anioCursando}</p>
+        <p><strong>Municipio:</strong> {estudiante.residencia?.municipio ?? '—'}</p>
+        <p><strong>Activo:</strong> {estudiante.activo ? 
+            <span className="text-green-800">Sí</span> : 
+            <span className="text-red-500">No</span>
+        }</p>
+        <p><strong>Cursos:</strong> {estudiante.cursos?.map((curso) => 
+            <li key={curso.id}>{curso.nombre}</li>
+        )?? '—'}</p>
+      </div>
+    </div>
+  )
+}
+
+export default EstudianteDetallePage

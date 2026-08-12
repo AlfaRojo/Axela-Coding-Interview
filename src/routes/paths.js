@@ -1,4 +1,3 @@
-//URLs unificadas de la app. Se usan en los NavLink y en los Routes.
 export const PATHS = {
   HOME: '/',
 
@@ -20,7 +19,6 @@ export const PATHS = {
   NO_ENCONTRADO: '*',
 };
 
-// Enlaces del navbar. El navbar itera esto en vez de tener 3 NavLink escritos a mano.
 export const NAV_LINKS = [
   { to: PATHS.ESTUDIANTES, etiqueta: 'Estudiantes' },
   { to: PATHS.CATEDRATICOS, etiqueta: 'Catedráticos' },
