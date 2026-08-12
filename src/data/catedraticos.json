@@ -13,11 +13,6 @@
       "municipio": "Mixco",
       "departamento": "Guatemala"
     },
-    "contactoEmergencia": {
-      "nombre": "Lucía Morales Paz",
-      "parentesco": "Esposo/a",
-      "telefono": "5555-4321"
-    },
     "activo": true
   },
   {
@@ -33,11 +28,6 @@
       "direccion": "7a Avenida 2-19, Zona 4",
       "municipio": "Antigua Guatemala",
       "departamento": "Sacatepéquez"
-    },
-    "contactoEmergencia": {
-      "nombre": "Hugo Del Valle Recinos",
-      "parentesco": "Padre",
-      "telefono": "4412-1100"
     },
     "activo": true
   },
@@ -55,11 +45,6 @@
       "municipio": "Guatemala",
       "departamento": "Guatemala"
     },
-    "contactoEmergencia": {
-      "nombre": "Ana Barrios Guzmán",
-      "parentesco": "Esposo/a",
-      "telefono": "3320-9081"
-    },
     "activo": true
   },
   {
@@ -75,11 +60,6 @@
       "direccion": "4a Calle 6-30, Zona 1",
       "municipio": "Chimaltenango",
       "departamento": "Chimaltenango"
-    },
-    "contactoEmergencia": {
-      "nombre": "Byron Coy Ajanel",
-      "parentesco": "Hermano/a",
-      "telefono": "5573-2255"
     },
     "activo": true
   }
