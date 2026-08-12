@@ -1,5 +1,5 @@
-import React, { useEffect, useState, useContext } from 'react'
-import { useParams, useNavigate } from 'react-router-dom'
+import { useContext } from 'react'
+import { useParams } from 'react-router-dom'
 import EstudiantesContext from '../../context/EstudiantesContext';
 
 const EstudianteDetallePage = () => {

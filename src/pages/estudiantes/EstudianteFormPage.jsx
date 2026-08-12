@@ -21,7 +21,7 @@ export default function EstudianteFormPage() {
   const { crearEstudiante, actualizarEstudiante, obtenerEstudiante } =
     useContext(EstudiantesContext);
 
-  const esNuevoEstudiante = Boolean(id);
+  const esEdicion = Boolean(id);
   const [form, setForm] = useState(vacio);
 
   useEffect(() => {
@@ -51,7 +51,7 @@ export default function EstudianteFormPage() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    if (esNuevoEstudiante) {
+    if (esEdicion) {
       actualizarEstudiante(id, form);
     } else {
       crearEstudiante(form);
@@ -63,7 +63,7 @@ export default function EstudianteFormPage() {
   return (
     <section>
       <h1 className="mb-6 text-2xl font-semibold tracking-tight text-slate-900">
-        {esNuevoEstudiante ? 'Editar estudiante' : 'Nuevo estudiante'}
+        {esEdicion ? 'Editar estudiante' : 'Nuevo estudiante'}
       </h1>
 
       <form onSubmit={handleSubmit} className="space-y-4">
@@ -219,7 +219,7 @@ export default function EstudianteFormPage() {
         </div>
 
         <button type="submit" className="rounded-md bg-slate-900 px-3 py-2 text-sm font-medium text-white hover:bg-slate-700">
-          {esNuevoEstudiante ? 'Guardar' : 'Crear'}
+          {esEdicion ? 'Guardar' : 'Crear'}
         </button>
       </form>
     </section>

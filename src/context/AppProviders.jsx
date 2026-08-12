@@ -1,7 +1,7 @@
 import {EstudiantesProvider} from './EstudiantesContext';
 import {CursosProvider} from './CursosContext';
 import {CatedraticosProvider} from './CatedraticosContext';
-import '../../src/App.css';
+import '../App.css';
 
 function AppProviders({ children }) {
     return (
