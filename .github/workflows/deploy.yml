@@ -21,17 +21,19 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # Node primero, para que pnpm se instale y corra sobre esta version.
+      # pnpm 11 usa node:sqlite -> requiere Node >= 22.13 (con 20 revienta con
+      # ERR_UNKNOWN_BUILTIN_MODULE).
+      # Sin `cache: pnpm`: setup-node lo resuelve con `pnpm store path`, que aqui
+      # todavia no existe. El install de este proyecto es corto.
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
       # El repo usa pnpm (pnpm-lock.yaml, sin package-lock.json): npm ci fallaria.
       - uses: pnpm/action-setup@v4
         with:
           version: 11
-
-      # Sin `cache: pnpm`: setup-node resuelve el store con `pnpm store path` y
-      # falla si todavia no existe en el runner. El install de este proyecto es
-      # corto, no vale la pena el riesgo.
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 20
 
       - run: pnpm install --frozen-lockfile
 
