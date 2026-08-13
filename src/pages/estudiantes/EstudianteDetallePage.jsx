@@ -1,11 +1,13 @@
 import { useContext } from 'react'
 import { useParams } from 'react-router-dom'
 import EstudiantesContext from '../../context/EstudiantesContext';
+import cursosContext from '../../context/CursosContext';
 
 const EstudianteDetallePage = () => {
   const { id } = useParams()
   const { obtenerEstudiante } = useContext(EstudiantesContext);
   const estudiante = obtenerEstudiante(id);
+  const { cursos } = useContext(cursosContext);
 
   if (!id || !estudiante) return <p>Estudiante no encontrado o id no proporcionado</p>
 
@@ -22,9 +24,7 @@ const EstudianteDetallePage = () => {
             <span className="text-green-800">Sí</span> : 
             <span className="text-red-500">No</span>
         }</p> */}
-        <p><strong>Cursos:</strong> {estudiante.cursos?.map((curso) => 
-            <li key={curso.id}>{curso.nombre}</li>
-        )?? '—'}</p>
+        <p><strong>Cursos:</strong> { cursos.filter(curso => curso.alumnosIds?.includes(estudiante.id)).map(curso => curso.nombre).join(', ') || 'Ninguno' }</p>
       </div>
     </div>
     <div className="rounded-md border border-slate-200 bg-white p-4 mt-4">

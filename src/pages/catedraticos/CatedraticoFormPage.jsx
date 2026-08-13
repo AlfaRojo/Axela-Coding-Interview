@@ -196,7 +196,7 @@ export default function CatedraticoFormPage() {
             <input
               type="number"
               name="salario"
-              min="1"
+              min={1}
               step="1"
               value={form.salario}
               onChange={handleChange}
