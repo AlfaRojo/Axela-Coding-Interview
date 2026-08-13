@@ -18,10 +18,10 @@ const EstudianteDetallePage = () => {
         <p><strong>Fecha de nacimiento:</strong> {estudiante.fechaNacimiento}</p>
         <p><strong>Año cursando:</strong> {estudiante.anioCursando}</p>
         <p><strong>Residencia:</strong> {estudiante.residencia?.direccion}, {estudiante.residencia?.municipio ?? '—'}, {estudiante.residencia?.departamento}</p>
-        <p><strong>Activo:</strong> {estudiante.activo ? 
+        {/* <p><strong>Activo:</strong> {estudiante.activo ? 
             <span className="text-green-800">Sí</span> : 
             <span className="text-red-500">No</span>
-        }</p>
+        }</p> */}
         <p><strong>Cursos:</strong> {estudiante.cursos?.map((curso) => 
             <li key={curso.id}>{curso.nombre}</li>
         )?? '—'}</p>

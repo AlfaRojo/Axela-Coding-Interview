@@ -13,8 +13,6 @@ const vacio = {
   encargado: { nombre: '', parentesco: '', telefono: '', email: '' },
 };
 
-const input = 'w-full rounded-md border border-slate-300 px-3 py-2 text-sm';
-
 export default function EstudianteFormPage() {
   const { id } = useParams();
   const navigate = useNavigate();
@@ -77,7 +75,7 @@ export default function EstudianteFormPage() {
                 name="nombre"
                 value={form.nombre}
                 onChange={handleChange}
-                className={input}
+                className="w-full rounded-md border border-slate-300 px-3 py-2 text-sm"
                 required
               />
             </label>
@@ -88,7 +86,7 @@ export default function EstudianteFormPage() {
                 name="apellido"
                 value={form.apellido}
                 onChange={handleChange}
-                className={input}
+                className="w-full rounded-md border border-slate-300 px-3 py-2 text-sm"
                 required
               />
             </label>
@@ -100,7 +98,7 @@ export default function EstudianteFormPage() {
                 name="fechaNacimiento"
                 value={form.fechaNacimiento}
                 onChange={handleChange}
-                className={input}
+                className="w-full rounded-md border border-slate-300 px-3 py-2 text-sm"
                 required
               />
             </label>
@@ -111,7 +109,7 @@ export default function EstudianteFormPage() {
                 name="anioCursando"
                 value={form.anioCursando}
                 onChange={handleChange}
-                className={input}
+                className="w-full rounded-md border border-slate-300 px-3 py-2 text-sm"
                 required
               >
                 <option value="">Selecciona</option>
@@ -133,7 +131,7 @@ export default function EstudianteFormPage() {
                 name="direccion"
                 value={form.residencia.direccion}
                 onChange={handleResidencia}
-                className={input}
+                className="w-full rounded-md border border-slate-300 px-3 py-2 text-sm"
                 required
               />
             </label>
@@ -144,7 +142,7 @@ export default function EstudianteFormPage() {
                 name="municipio"
                 value={form.residencia.municipio}
                 onChange={handleResidencia}
-                className={input}
+                className="w-full rounded-md border border-slate-300 px-3 py-2 text-sm"
               />
             </label>
 
@@ -154,7 +152,7 @@ export default function EstudianteFormPage() {
                 name="departamento"
                 value={form.residencia.departamento}
                 onChange={handleResidencia}
-                className={input}
+                className="w-full rounded-md border border-slate-300 px-3 py-2 text-sm"
               >
                 <option value="">Selecciona</option>
                 {DEPARTAMENTOS.map((depto) => (
@@ -175,7 +173,7 @@ export default function EstudianteFormPage() {
                 name="nombre"
                 value={form.encargado.nombre}
                 onChange={handleEncargado}
-                className={input}
+                className="w-full rounded-md border border-slate-300 px-3 py-2 text-sm"
                 required
               />
             </label>
@@ -186,7 +184,7 @@ export default function EstudianteFormPage() {
                 name="parentesco"
                 value={form.encargado.parentesco}
                 onChange={handleEncargado}
-                className={input}
+                className="w-full rounded-md border border-slate-300 px-3 py-2 text-sm"
               >
                 <option value="">Selecciona</option>
                 {PARENTESCOS.map((p) => (
@@ -201,7 +199,7 @@ export default function EstudianteFormPage() {
                 name="telefono"
                 value={form.encargado.telefono}
                 onChange={handleEncargado}
-                className={input}
+                className="w-full rounded-md border border-slate-300 px-3 py-2 text-sm"
               />
             </label>
 
@@ -212,7 +210,7 @@ export default function EstudianteFormPage() {
                 name="email"
                 value={form.encargado.email}
                 onChange={handleEncargado}
-                className={input}
+                className="w-full rounded-md border border-slate-300 px-3 py-2 text-sm"
               />
             </label>
           </div>
